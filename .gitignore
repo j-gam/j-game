@@ -3,5 +3,5 @@ sql/
 .env
 .dockerignore
 *Dockerfile
-src/server/.gradle
-src/server/build
+server/.gradle
+server/build
