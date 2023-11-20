@@ -1,0 +1,7 @@
+notes/
+sql/
+.env
+.dockerignore
+*Dockerfile
+src/server/.gradle
+src/server/build
