@@ -11,7 +11,7 @@ plugins {
     id 'org.springframework.boot' version '3.1.5'
 }
 
-apply plugin: 'io.spring.dependency-managment'
+apply plugin: 'io.spring.dependency-management'
 
 group = 'com.j-game'
 version = '1.0.0'
@@ -37,13 +37,9 @@ java {
     }
 }
 
-application {
-    // Define the main class for the application.
-    mainClass = 'server.App'
-}
-
 bootJar {
   destinationDirectory = file("jarBuild")
+}
 
 tasks.named('test') {
     // Use JUnit Platform for unit tests.

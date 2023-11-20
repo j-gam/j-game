@@ -5,3 +5,4 @@ sql/
 *Dockerfile
 server/.gradle
 server/build
+server/jarBuild
