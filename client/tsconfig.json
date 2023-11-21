@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "nodenext",
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "target": "ES6",
+    "jsx": "react"
+  },
+  "include": ["src/**/*"]
+}

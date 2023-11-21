@@ -6,3 +6,6 @@ sql/
 server/.gradle
 server/build
 server/jarBuild
+server/run/
+client/node_modules/
+client/dist/
