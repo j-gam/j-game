@@ -3,8 +3,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: {
-    lobby: './src/app/lobby/index',
-    game: './src/app/game/index'
+    lobby: './src/lobby/index',
+    game: './src/game/index'
   },
   plugins: [
     new HtmlWebpackPlugin({
