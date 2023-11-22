@@ -1,0 +1,25 @@
+.room-container {
+  display: grid;
+  grid-template-columns: 4fr 3fr 2fr;
+  align-items: center;
+  gap: 0.25rem;
+
+  padding: 0.25rem;
+  margin: 0.5rem;
+  border-radius: 3px;
+  border: black 1px solid;
+}
+
+.room-name {
+  background-color: lightgrey;
+}
+
+.room-participants {
+}
+
+
+.room-participants, .room-name {
+  padding: 0.1rem;
+  border-radius: 3px;
+  background-color: lightgrey;
+}

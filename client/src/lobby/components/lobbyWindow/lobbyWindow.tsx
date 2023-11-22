@@ -1,4 +1,4 @@
-// import './style.scss';
+import './style.scss';
 import React from 'react';
 import { Room } from '../room/room';
 
@@ -18,7 +18,7 @@ export const LobbyWindow = () => {
       participants: 4
     } 
   ];
-  return <div className = 'lobbyWindow'>
+  return <div className = 'lobby-window'>
     { dummyData.map(r => <Room room={r} />) } 
   </div>
 }
