@@ -1,0 +1,12 @@
+.main-column {
+  display: grid;
+  grid-template-areas: ". b .";
+  grid-template-columns: 1fr 80% 1fr;
+  padding: 10px;
+} 
+
+.board-window {
+  grid-area: b;
+  border: black solid 1px;
+  padding: 10px;
+}

@@ -1,0 +1,10 @@
+.user-column {
+  display: flex;
+  flex-direction: column;
+  gap: .25rem;
+
+  margin: 10px;
+  padding: 10px;
+  border: black solid 1px;
+  height: 100%;
+}
