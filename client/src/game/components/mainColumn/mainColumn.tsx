@@ -1,10 +1,12 @@
 import './style.scss';
+import { CategoryColumn } from '../categoryColumn/categoryColumn';
 import React from 'react';
 
 type Question = {
   value: number
   text: string
   answer: string
+  complete: boolean
 }
 
 type Category = {
@@ -22,20 +24,7 @@ export const MainColumn = (props: MainColumnProps) => {
   return (
     <div className="main-column">
       <div className="board-window">
-        { categories.map(c => (
-          <div className="category-column">
-            <div className="category-header">
-              { c.name }
-             </div>
-             { c.questions.map(q => (
-                 <div className="category-box">
-                  { q.value }
-                 </div>
-               ))
-             }
-          </div>
-        ))
-        }
+        { categories.map(c => <CategoryColumn category={ c } />) }
       </div>
     </div>
   );

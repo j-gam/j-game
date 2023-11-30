@@ -1,0 +1,13 @@
+.category-column {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  gap: 0.2rem;
+  align-items: center;
+  justify-items: center;
+}
+
+.category-header {
+  border: black solid 1px;
+  height: 5rem;
+}
+
